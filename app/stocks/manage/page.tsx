@@ -6,7 +6,7 @@ export default function ManageMyStocksPage() {
       <div className="flex items-center justify-between">
         <h1 className="text-2xl font-bold">Manage My Stocks</h1>
       </div>
-      <div className="@container/main flex flex-1 flex-col gap-2">
+      <div className="@container/main flex flex-1 flex-col gap-2 overflow-auto">
         <StockList />
       </div>
     </div>
